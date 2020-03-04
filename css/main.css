@@ -222,11 +222,11 @@ p{
         display:inline-block;
         margin: 10px;
     }
-/*
+
     nav ul{
         position: absolute;
-        top:80px;
         left: 0;
+        top: 70px;
         min-width: 100vw;
         list-style-type: none;
         display: flex;
@@ -236,13 +236,34 @@ p{
     }
     nav li{
         min-width: 100vw;
+        padding: 3px;
+        text-align: center;
     }
-*/
+    nav li a{
+        display: grid;
+        margin: 1px;
+        padding: 5px;
+    }
+    nav li:hover{
+        text-decoration: none;
+        border-bottom: 0px solid black;
+    }
+    nav li a:hover{
+        color:#2a3132;
+        background-color: white;
+    }
+    #lang{
+        white-space: nowrap;
+        position: absolute;
+        right: 10px;
+        top:20px;
+        font: 1.2rem;
+    }
     .hideNav{
         display: none;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
     body{
         background-color: green;
     }
