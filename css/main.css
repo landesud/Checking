@@ -262,10 +262,24 @@ p{
     .hideNav{
         display: none;
     }
+    footer section{
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+    footer address{
+        max-width: 90vw;
+        min-width: 80vw;
+    }
     footer a{
         font-size: 4vw;
+        white-space: nowrap;
+    }
+    #row{
+        min-width: 0;
+        max-width: 50vw;
     }
     #row img{
+        min-width: 1vw;
         max-width: 10vw;
         padding-bottom: 0px;
         margin: 0px;
@@ -286,9 +300,6 @@ p{
         top:0px;
     }
 
-    footer section, footer address p a{
-        display: inline-block;
-        font-size:1em;
-    }
+
 
 }
