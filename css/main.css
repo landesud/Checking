@@ -262,13 +262,33 @@ p{
     .hideNav{
         display: none;
     }
+    footer a{
+        font-size: 4vw;
+    }
+    #row img{
+        max-width: 10vw
+        padding-bottom: 0px;
+        margin:0;
+    }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     body{
         background-color: green;
     }
+    #lang span{
+        display: none;
+    }
+    #lang{
+        display: flex;
+        flex-flow: column wrap;
+        position: absolute;
+        right: 10px;
+        top:0px;
+    }
+
     footer section, footer address p a{
         display: inline-block;
         font-size:1em;
     }
+
 }
