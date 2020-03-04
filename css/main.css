@@ -174,9 +174,6 @@ main p{
 }
 
 @media screen and (max-width: 1000px) and (min-width: 850px){
-    body{
-        background-color: #202022;
-    }
     nav{
         margin-left: 50px;
     }
@@ -190,9 +187,7 @@ main p{
 }
 
 @media screen and (max-width: 850px) {
-    body{
-        background-color: yellow;
-    }
+
     nav{
         margin-left: 80px;
     }
@@ -214,9 +209,7 @@ main p{
     }
 }
 @media screen and (max-width: 750px) {
-    body{
-        background-color: red;
-    }
+
     /*Burger*/
     .container{
         display:inline-block;
@@ -297,9 +290,7 @@ main p{
     }
 }
 @media screen and (max-width: 480px) {
-    body{
-        background-color: green;
-    }
+
     #lang span{
         display: none;
     }
