@@ -266,9 +266,9 @@ p{
         font-size: 4vw;
     }
     #row img{
-        max-width: 10vw
+        max-width: 10vw;
         padding-bottom: 0px;
-        margin:0;
+        margin: 0px;
     }
 }
 @media screen and (max-width: 480px) {
