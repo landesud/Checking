@@ -308,9 +308,13 @@ main p{
         flex-flow: column wrap;
         position: absolute;
         right: 10px;
-        top:10px;
+        top:8px;
     }
-
+    nav li:hover, #lang a:hover{
+        border-bottom: 0px solid #bbb;
+        padding-bottom: 0px;
+        color:white;
+    }
 
 
 }
