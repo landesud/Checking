@@ -308,7 +308,7 @@ main p{
         flex-flow: column wrap;
         position: absolute;
         right: 10px;
-        top:0px;
+        top:10px;
     }
 
 
