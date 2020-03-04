@@ -18,7 +18,7 @@ body{
 }
 
 /*HEADER*/
-header, footer section{
+header, footer section, nav ul{
     background: #2a3132; 
     padding: 10px;
     display: flex;
@@ -169,6 +169,10 @@ p{
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
   }
+.showNav, .hideNav{
+    display: block;
+}
+
 @media screen and (max-width: 1000px) and (min-width: 850px){
     body{
         background-color: #202022;
@@ -209,18 +213,34 @@ p{
         padding-bottom: 0;
     }
 }
-    @media screen and (max-width: 750px) {
-        body{
-            background-color: red;
-        }
-        /*Burger*/
-        .container{
-            display:inline-block;
-            margin: 10px;
-        }
-        header nav{
-            display: none;
-        }
+@media screen and (max-width: 750px) {
+    body{
+        background-color: red;
+    }
+    /*Burger*/
+    .container{
+        display:inline-block;
+        margin: 10px;
+    }
+/*
+    nav ul{
+        position: absolute;
+        top:80px;
+        left: 0;
+        min-width: 100vw;
+        list-style-type: none;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav li{
+        min-width: 100vw;
+    }
+*/
+    .hideNav{
+        display: none;
+    }
 }
 @media screen and (max-width: 500px) {
     body{
