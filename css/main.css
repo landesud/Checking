@@ -79,6 +79,24 @@ main section{
     padding: 10px;
     border-radius: 10px;
 }
+.txtCenter{
+    text-align: center;
+}
+/*INDEX*/
+/*MS LOGOS*/
+#msLogos{
+    margin-top: 20px;
+    min-width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+#msLogos img{
+    width:15vw;
+}
+
 /*FOOTER*/
 footer{
     background: #2a3132; 
