@@ -16,7 +16,13 @@ body{
     font: 1.2rem Georgia, serif;
     min-height: 100vh;
 }
-
+.flex{
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:center;
+    justify-content: space-around;
+}
 /*HEADER*/
 header, footer section, nav ul{
     background: #2a3132; 
@@ -82,11 +88,16 @@ main section{
 .txtCenter{
     text-align: center;
 }
+main ul{
+    list-style-position: inside;
+}
+main li{
+    margin: 10px 10px;
+}
 /*INDEX*/
 /*MS LOGOS*/
 #msLogos{
-    margin-top: 20px;
-    min-width: 100%;
+    width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 20px;
@@ -94,7 +105,7 @@ main section{
     align-items: center;
 }
 #msLogos img{
-    width:15vw;
+    width:10vw;
 }
 
 /*FOOTER*/
@@ -151,11 +162,13 @@ h2{
 h3{
     font-size:1.6rem;
 }
+main section p:first-of-type{
+    text-indent: 30px;
+}
 main p{
     font-size: 1.4rem;
     text-align: justify;
-    margin: 10px;
-    text-indent: 50px;
+    margin: 30px 10px;
     line-height: 1.6;
 }
 
