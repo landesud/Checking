@@ -100,6 +100,10 @@ main li{
     width: 80vw;
     height: 45vw;
 }
+ul ul{
+    list-style-type:circle;
+}
+
 /*INDEX*/
 /*MS LOGOS*/
 #msLogos{
@@ -169,7 +173,7 @@ h3{
     font-size:1.6rem;
 }
 main section p:first-of-type{
-    text-indent: 30px;
+    text-indent: 10px;
 }
 main p{
     font-size: 1.4rem;
@@ -324,6 +328,15 @@ main p{
         max-width: 15vw;
         padding-bottom: 0px;
         margin: 0px;
+    }
+
+    .flex{
+        display: block;
+    }
+    div .flex ul{
+        display: block;
+        width: 100%;
+        white-space: nowrap;
     }
 }
 @media screen and (max-width: 480px) {
