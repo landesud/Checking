@@ -17,10 +17,9 @@ body{
     min-height: 100vh;
 }
 .flex{
-    padding: 10px;
     display: flex;
     flex-flow: row nowrap;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
 }
 /*HEADER*/
@@ -93,6 +92,13 @@ main ul{
 }
 main li{
     margin: 10px 10px;
+}
+#VBA-Video{
+    display: block;
+    margin:0 auto;
+    border-radius: 15px;
+    width: 80vw;
+    height: 45vw;
 }
 /*INDEX*/
 /*MS LOGOS*/
