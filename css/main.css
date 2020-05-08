@@ -113,7 +113,6 @@ ul ul{
     grid-gap: 20px;
     justify-items: center;
     align-items: center;
-    position: relative;
 }
 #msLogos img{
     width:10vw;
@@ -189,6 +188,7 @@ main p{
     animation: animateLogo 20s linear infinite normal;
     animation-delay: 5s;
     transform:rotate(0deg);
+    z-index: 0;
 }
 
 /*EFFECTS*/
@@ -318,6 +318,7 @@ main p{
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-around;
+        z-index: 1;
     }
     nav li{
         min-width: 100vw;
