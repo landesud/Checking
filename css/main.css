@@ -113,6 +113,7 @@ ul ul{
     grid-gap: 20px;
     justify-items: center;
     align-items: center;
+    position: relative;
 }
 #msLogos img{
     width:10vw;
@@ -181,7 +182,57 @@ main p{
     margin: 30px 10px;
     line-height: 1.6;
 }
+#mainLogo{
+    display: block;
+    margin:10px auto;
+    max-width: 50vw;
+    animation: animateLogo 20s linear infinite normal;
+    animation-delay: 5s;
+    transform:rotate(0deg);
+}
 
+/*EFFECTS*/
+  
+  @keyframes animateLogo {
+    0% {transform:rotate(5deg);}
+    2% {transform:rotate(-5deg);}
+    4% {transform:rotate(5deg);}
+    6% {transform:rotate(-5deg);}
+    8% {transform:rotate(2deg);}
+    10% {transform:rotate(-2deg);}
+    12% {transform:rotate(2deg);}
+    14% {transform:rotate(-2deg);}
+    16%, 100% {transform:rotate(0deg);}
+}
+
+
+.rotate{
+    animation: animate 10s linear infinite normal;
+    animation-delay: 5s;
+    transform:rotate(0deg);
+  }
+  
+  @keyframes animate {
+    0%   {transform:rotate(5deg);}
+    2% {transform:rotate(-5deg);}
+    4% {transform:rotate(5deg);}
+    6% {transform:rotate(-5deg);}
+    8% {transform:rotate(2deg);}
+    10% {transform:rotate(-2deg);}
+    12% {transform:rotate(2deg);}
+    14% {transform:rotate(-2deg);}
+    16%, 100% {transform:rotate(0deg);}
+}
+.strong > li{
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.strong > li ul{
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+}
 /*Burger Icon*/
 .container {
     display: none;
