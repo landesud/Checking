@@ -192,8 +192,9 @@ main p{
     line-height: 1.6;
 }
 #logoLetters{
-    max-width: 41vw;
+    max-width: max-content;
     display: block;
+    position: relative;
     margin: 10px auto;
 }
 #mainLogo{
@@ -204,6 +205,7 @@ main p{
     animation-delay: 1s;
     transform:rotate(0deg);
     z-index: 0;
+    
 }
 #mainLogo2{
     display:inline-block;
@@ -340,15 +342,16 @@ section:first-of-type{
         border-bottom:0;
         padding-bottom: 0;
     }
+  
     #logoLetters{
-        max-width: 60vw;
+        max-width:max-content;
         display: block;
         margin: 10px auto;
     }
     #mainLogo{
         display: inline-block;
         margin:10px auto;
-        max-width: 23vw;
+        max-width: 28vw;
         animation: animateLogo 20s linear infinite normal;
         animation-delay: 1s;
         transform:rotate(0deg);
@@ -356,9 +359,10 @@ section:first-of-type{
     }
     #mainLogo2{
         display:inline-block;
-        max-width: 36vw;
+        max-width: 28vw;
     }
 }
+
 @media screen and (max-width: 750px) {
 
     /*Burger*/
@@ -449,15 +453,17 @@ section:first-of-type{
         width: 100%;
         white-space: nowrap;
     }
+     
     #logoLetters{
-        max-width: 80vw;
+        width: 90vw;
         display: block;
         margin: 10px auto;
     }
+   
     #mainLogo{
         display: inline-block;
         margin:10px auto;
-        max-width: 29vw;
+        min-width: 20vw;
         animation: animateLogo 20s linear infinite normal;
         animation-delay: 1s;
         transform:rotate(0deg);
@@ -465,7 +471,7 @@ section:first-of-type{
     }
     #mainLogo2{
         display:inline-block;
-        max-width: 49vw;
+        min-width: 353w;
     }
 
 }
