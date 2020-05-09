@@ -455,7 +455,7 @@ section:first-of-type{
     }
      
     #logoLetters{
-        width: 90vw;
+        min-width: 58vw;
         display: block;
         margin: 10px auto;
     }
@@ -471,7 +471,7 @@ section:first-of-type{
     }
     #mainLogo2{
         display:inline-block;
-        min-width: 353w;
+        min-width: 37vw;
     }
 
 }
