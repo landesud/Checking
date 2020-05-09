@@ -97,6 +97,7 @@ main li{
 #VBA-Video{
     display: block;
     margin:0 auto;
+    border:0;
     border-radius: 15px;
     width: 80vw;
     height: 45vw;
@@ -104,7 +105,9 @@ main li{
 ul ul{
     list-style-type:circle;
 }
-
+.bigger{
+    font-size: 1.2em;
+}
 /*INDEX*/
 /*MS LOGOS*/
 #msLogos{
@@ -119,7 +122,12 @@ ul ul{
 #msLogos img{
     width:10vw;
 }
-
+.txtCenter a{
+    color:white;
+}
+.txtCenter a:hover{
+    color:#bbb;
+}
 /*FOOTER*/
 footer{
     background: #2a3132; 
@@ -183,7 +191,7 @@ main p{
     margin: 30px 10px;
     line-height: 1.6;
 }
-picture{
+#logoLetters{
     max-width: 41vw;
     display: block;
     margin: 10px auto;
@@ -191,7 +199,7 @@ picture{
 #mainLogo{
     display: inline-block;
     margin:10px auto;
-    max-width: 15vw;
+    width: 15vw;
     animation: animateLogo 20s linear infinite normal;
     animation-delay: 1s;
     transform:rotate(0deg);
@@ -201,9 +209,15 @@ picture{
     display:inline-block;
     max-width: 23vw;
 }
-picture img{
+/*
+#msLogos img{
     display: inline-block;
     max-width: 10%;
+}
+*/
+
+.icon-s{
+    width: 50px;
 }
 /*EFFECTS*/
  
@@ -225,7 +239,11 @@ section:first-of-type{
     30% {transform:rotate(-4deg);}
     40% {transform:rotate(4deg);}
     50% {transform:rotate(-4deg);}
-    60%, 100% {transform:rotate(0deg);}
+    60% {transform:rotate(4deg);}
+    70% {transform:rotate(-4deg);}
+    80% {transform:rotate(4deg);}
+    90% {transform:rotate(-4deg);}
+    100% {transform:rotate(4deg);}
 }
 
 
@@ -322,7 +340,7 @@ section:first-of-type{
         border-bottom:0;
         padding-bottom: 0;
     }
-    picture{
+    #logoLetters{
         max-width: 60vw;
         display: block;
         margin: 10px auto;
@@ -431,7 +449,7 @@ section:first-of-type{
         width: 100%;
         white-space: nowrap;
     }
-    picture{
+    #logoLetters{
         max-width: 80vw;
         display: block;
         margin: 10px auto;
