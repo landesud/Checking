@@ -322,6 +322,24 @@ section:first-of-type{
         border-bottom:0;
         padding-bottom: 0;
     }
+    picture{
+        max-width: 60vw;
+        display: block;
+        margin: 10px auto;
+    }
+    #mainLogo{
+        display: inline-block;
+        margin:10px auto;
+        max-width: 23vw;
+        animation: animateLogo 20s linear infinite normal;
+        animation-delay: 1s;
+        transform:rotate(0deg);
+        z-index: 0;
+    }
+    #mainLogo2{
+        display:inline-block;
+        max-width: 36vw;
+    }
 }
 @media screen and (max-width: 750px) {
 
@@ -413,6 +431,25 @@ section:first-of-type{
         width: 100%;
         white-space: nowrap;
     }
+    picture{
+        max-width: 80vw;
+        display: block;
+        margin: 10px auto;
+    }
+    #mainLogo{
+        display: inline-block;
+        margin:10px auto;
+        max-width: 29vw;
+        animation: animateLogo 20s linear infinite normal;
+        animation-delay: 1s;
+        transform:rotate(0deg);
+        z-index: 0;
+    }
+    #mainLogo2{
+        display:inline-block;
+        max-width: 49vw;
+    }
+
 }
 @media screen and (max-width: 480px) {
 
